@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check out</title>
+    <link rel="stylesheet" href="1-1.css">
+    <style>
+        *{margin: 0; padding: 0;}
+    body{background: #ecf1f4; font-family: sans-serif;}
+    .form-wrap{ width: 320px; background: #7a9e9f; padding: 40px 20px; box-sizing: border-box; position: fixed; left: 50%; top: 50%; transform: translate(-50%, -50%);}
+    h1{text-align: center; color: #fff; font-weight: normal; margin-bottom: 20px;}
+    input{width: 100%; background: none; border: 1px solid #fff; border-radius: 3px; padding: 6px 15px; box-sizing: border-box; margin-bottom: 20px; font-size: 16px; color:#fff;}
+    input[type="button"]{ background: #fff; border: 0; cursor: pointer; color: #7a9e9f;}
+    input[type="button"]:hover{ background: grey; transition: .6s;}
+    ::placeholder{
+        color: #fff;
+    }
+    .back{
+        border: none;
+        background-color: #7a9e9f;
+        padding: 10px 10px;
+        text-align: left;
+        margin-left: 2px;
+        cursor: pointer;
+    }
+    .back:hover{
+        background-color: #4f6367;
+    }
+    </style>
+</head>
+<body>
+
+
+    <div class="form-wrap">
+        <form action="https://httpbin.org/anything" method="post">
+            <button type="button" name="Home" class="back"><a href="index.html"><img src="hicon.png" alt="Home page" style="width: 100%; height: 30px;"/></a></button>
+            <h1>Check out</h1>
+            <input type="text" placeholder="Name">
+            <input type="password" placeholder="Phone number">
+            <input type="password" placeholder="Country name">
+            <input type="password" placeholder="House no.">
+            <input type="button" value="BUY">
+            <p style="color:#fff">Need help?<a href="mailto:zawaya.gallery0@gmail.com" style="color:#4f6367"> yes</a> </p>
+        
+        </form>
+    </div>
+    
+</body>
+</html>

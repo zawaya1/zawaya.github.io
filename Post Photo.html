@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Photo</title>
+    <link rel="stylesheet" href="1-1.css">
+
+</head>
+<body>
+
+    <div class="form-wrap">
+        <form action="https://httpbin.org/anything" method="post">  
+            <h1>Post Photo</h1>
+            <p style="color:#fff">Category:
+                <select name="category">
+                    <option checked>Other</option>
+                    <option>Portrait </option>
+                    <option>Landscape</option>
+                    <option>Architecture</option>
+                </select>
+                </p>
+            </br>
+            <input type="text" placeholder="Picture name">
+            <p style="color:#fff"> Photo Description:
+            <textarea   style="color:#7a9e9f; text-align:left; resize: none;" name ="photo" rows = "7" cols = "33">
+                write here...  
+            </textarea>
+            </p>   
+            </br>         
+            <input type="password" placeholder="Price">
+    </br>
+            <input type="button" value="POST">
+            <p style="color:#fff">Need help?<a href="#" style="color:#4f6367"> yes</a> </p>
+        
+        </form>
+    </div>
+    
+  
+</body>
+</html>
